@@ -18,10 +18,11 @@ const Navigation: React.FC = () => {
     <nav className="bg-white shadow-sm py-4">
       <div className="container flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-autism-blue flex items-center justify-center">
-            <span className="text-white font-semibold">A</span>
-          </div>
-          <h1 className="font-bold text-xl text-autism-blue">AutismoPEI</h1>
+          <img 
+            src="/lovable-uploads/a0a63d3e-cafd-40ec-94a4-02e2ab77ddb0.png" 
+            alt="Nosso Amigo Pedro Logo" 
+            className="h-12 w-auto"
+          />
         </div>
         
         <div className="hidden md:flex items-center space-x-4">
